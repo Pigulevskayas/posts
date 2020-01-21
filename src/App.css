@@ -7,6 +7,54 @@
   pointer-events: none;
 }
 
+.post-preview {
+  margin: 5px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #cecece;
+  max-width: 550px;
+  cursor: pointer;
+}
+
+.post-preview h6 {
+  margin-bottom: 0;
+}
+
+.back {
+  margin: 5px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.post-page {
+  border-bottom: 1px solid gray;
+  margin: 15px;
+}
+
+.post-page .author {
+  font-style: italic;
+  font-weight: bold;
+  margin: 20px 0;
+  color: gray;
+}
+
+.comments-container {
+  font-size: 14px;
+  margin: 15px;
+}
+
+.comment-block {
+  padding: 10px;
+  border: 1px solid gray;
+  max-width: 550px;
+  margin-bottom: 20px;
+}
+
+.comments-container h3{
+  margin: 0;
+  font-size: 12px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
